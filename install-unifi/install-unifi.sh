@@ -31,8 +31,11 @@ ABI=`/usr/sbin/pkg config abi`
 # FreeBSD package source:
 FREEBSD_PACKAGE_URL="https://pkg.freebsd.org/${ABI}/latest/Latest/"
 
+# FreeBSD package list source:
+FREEBSD_PACKAGE_LIST_SOURCE="https://pkg.freebsd.org/${ABI}/latest/"
+
 # FreeBSD package list:
-FREEBSD_PACKAGE_LIST_URL="${FREEBSD_PACKAGE_URL}packagesite.pkg"
+FREEBSD_PACKAGE_LIST_URL="${FREEBSD_PACKAGE_LIST_SOURCE}packagesite.pkg"
 
 # Stop the controller if it's already running...
 # First let's try the rc script if it exists:
