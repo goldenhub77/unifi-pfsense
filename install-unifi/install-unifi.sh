@@ -29,7 +29,7 @@ fi
 ABI=`/usr/sbin/pkg config abi`
 
 # FreeBSD package source:
-FREEBSD_PACKAGE_URL="https://pkg.freebsd.org/${ABI}/latest/"
+FREEBSD_PACKAGE_URL="https://pkg.freebsd.org/${ABI}/latest/Latest/"
 
 # FreeBSD package list:
 FREEBSD_PACKAGE_LIST_URL="${FREEBSD_PACKAGE_URL}packagesite.pkg"
