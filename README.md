@@ -68,7 +68,7 @@ To install the controller software and the rc script:
 
 The install script will install dependencies, download the UniFi controller software, make some adjustments, and start the UniFi controller.
 
-The git.io link above should point to `https://raw.githubusercontent.com/unofficial-unifi/unifi-pfsense/master/install-unifi/install-unifi.sh`
+The git.io link above should point to `https://raw.githubusercontent.com/goldenhub77/unifi-pfsense/master/install-unifi/install-unifi.sh`
 
 
 Starting and Stopping
