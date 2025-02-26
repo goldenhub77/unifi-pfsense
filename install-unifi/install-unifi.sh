@@ -133,7 +133,6 @@ AddPkg brotli
 AddPkg freetype2
 AddPkg fontconfig
 AddPkg alsa-lib
-AddPkg mpdecimal
 AddPkg python37
 AddPkg libfontenc
 AddPkg mkfontscale
